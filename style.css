@@ -111,16 +111,14 @@ nav a:hover{
 }
 
 .hero-img img{
+   
     width:100%;
-
+   max-width:1200px;
     height:auto;
-
-    display:block;
-
+    display:flex;
+    flex-wrap:wrap;
     object-fit:cover;
-
     filter:drop-shadow(0 0 20px #00e5ff);
-
     animation:flutuar 4s ease-in-out infinite;
 }
 /* ===================================================
