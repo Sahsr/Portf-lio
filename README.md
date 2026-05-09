@@ -69,6 +69,7 @@ Projeto de modelagem e implementação de banco de dados utilizando SQL e MySQL.
 ---
 
 📚 Cursos e Certificados
+
 📘 Administrando Banco de Dados — Fundação Bradesco
 💻 Fundamentos de TI — Fundação Bradesco
 🚀 Descobrindo o Mundo Tech — Ada Tech
@@ -79,8 +80,8 @@ Projeto de modelagem e implementação de banco de dados utilizando SQL e MySQL.
 🧠 Resolução de problemas
 📚 Aprendizado contínuo
 🔍 Pensamento lógico
-📬 Contato
 
+📬 Contato
 📧 Email: srennys15@gmail.com
 
 💻 GitHub:
