@@ -580,3 +580,117 @@ nav a:hover{
     }
 }
 
+
+/* ===================================================
+   RESPONSIVIDADE MOBILE
+=================================================== */
+
+@media(max-width:768px){
+
+    /* MENU */
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+
+        padding:20px;
+    }
+
+    nav a{
+        font-size:16px;
+        margin:5px;
+    }
+
+    /* HERO */
+
+    .hero-img img{
+        width:100%;
+        min-height:auto;
+
+        object-fit:cover;
+    }
+
+    /* TITULOS */
+
+    .titulo-nasa,
+    .titulo-neon{
+        font-size:36px;
+        text-align:center;
+    }
+
+    .subtitulo{
+        font-size:24px;
+        text-align:center;
+    }
+
+    /* TEXTOS */
+
+    .texto,
+    .texto-sub{
+        font-size:17px;
+
+        text-align:center;
+
+        padding:0 10px;
+    }
+
+    .texto p{
+        font-size:17px;
+    }
+
+    /* SOBRE */
+
+    .sobre-container,
+    .quem-sou{
+        grid-template-columns:1fr;
+
+        text-align:center;
+    }
+
+    /* CARDS */
+
+    .tecnologias,
+    .projetos,
+    .cursos,
+    .skills{
+        grid-template-columns:1fr;
+
+        padding:20px;
+    }
+
+    .tech-card,
+    .projeto-card,
+    .curso-card,
+    .skill-card{
+        width:100%;
+    }
+
+    /* BOTÕES */
+
+    .projeto-card a,
+    .curso-card a,
+    .contato-btn{
+        width:100%;
+
+        text-align:center;
+    }
+
+    /* CONTATO */
+
+    .contato{
+        flex-direction:column;
+
+        align-items:center;
+
+        padding:30px 20px;
+    }
+
+    /* SECTIONS */
+
+    section{
+        padding:60px 20px;
+    }
+
+}
+
