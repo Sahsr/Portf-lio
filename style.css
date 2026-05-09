@@ -620,16 +620,26 @@ nav a:hover{
 
     /* HERO */
 
-    .hero-img{
-        width:100%;
+   @media screen and (max-width:768px){
+
+    .hero{
+        padding:0;
     }
 
     .hero-img img{
+
         width:100%;
+
         height:auto;
 
         object-fit:cover;
+
+        border-radius:0;
+
+        animation:none;
     }
+
+}
 
     /* TITULOS */
 
