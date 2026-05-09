@@ -101,17 +101,28 @@ nav a:hover{
    HERO BANNER
 =================================================== */
 
+.hero{
+    width:100%;
+    overflow:hidden;
+}
+
+.hero-img{
+    width:100%;
+}
+
 .hero-img img{
     width:100%;
-    min-height:90vh;
 
-    object-fit:contain;
+    height:auto;
+
+    display:block;
+
+    object-fit:cover;
 
     filter:drop-shadow(0 0 20px #00e5ff);
 
-    animation:flutuar 3s ease-in-out infinite;
+    animation:flutuar 4s ease-in-out infinite;
 }
-
 /* ===================================================
    TITULOS
 =================================================== */
