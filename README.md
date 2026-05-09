@@ -68,6 +68,31 @@ Projeto de modelagem e implementação de banco de dados utilizando SQL e MySQL.
 
 ---
 
+📚 Cursos e Certificados
+📘 Administrando Banco de Dados — Fundação Bradesco
+💻 Fundamentos de TI — Fundação Bradesco
+🚀 Descobrindo o Mundo Tech — Ada Tech
+⚡ Front-End em JavaScript — Ada Tech
+🧠 Soft Skills
+🤝 Trabalho em equipe
+🚀 Aprendizado rápido
+🧠 Resolução de problemas
+📚 Aprendizado contínuo
+🔍 Pensamento lógico
+📬 Contato
+
+📧 Email: srennys15@gmail.com
+
+💻 GitHub:
+https://github.com/Sahsr
+
+💼 LinkedIn:
+https://www.linkedin.com/in/samara-rennys-souza-paiva-161a73277/
+
+🌟 Desenvolvido por
+
+✨ Samara Rennys
+
 # 📸 Preview
 
 ![Preview do Projeto](portfolio.jpeg)
