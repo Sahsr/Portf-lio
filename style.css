@@ -582,14 +582,19 @@ nav a:hover{
 
 
 /* ===================================================
-   RESPONSIVIDADE MOBILE
+   RESPONSIVIDADE CELULAR
 =================================================== */
 
-@media(max-width:768px){
+@media screen and (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
 
     /* MENU */
 
     nav{
+        display:flex;
         flex-wrap:wrap;
         justify-content:center;
         gap:15px;
@@ -598,15 +603,19 @@ nav a:hover{
     }
 
     nav a{
-        font-size:16px;
-        margin:5px;
+        font-size:15px;
+        margin:0;
     }
 
     /* HERO */
 
+    .hero-img{
+        width:100%;
+    }
+
     .hero-img img{
         width:100%;
-        min-height:auto;
+        height:auto;
 
         object-fit:cover;
     }
@@ -615,12 +624,16 @@ nav a:hover{
 
     .titulo-nasa,
     .titulo-neon{
-        font-size:36px;
+        font-size:34px;
+
         text-align:center;
+
+        line-height:1.2;
     }
 
     .subtitulo{
         font-size:24px;
+
         text-align:center;
     }
 
@@ -628,42 +641,108 @@ nav a:hover{
 
     .texto,
     .texto-sub{
-        font-size:17px;
+        width:100%;
+
+        font-size:16px;
 
         text-align:center;
-
-        padding:0 10px;
     }
 
     .texto p{
-        font-size:17px;
+        font-size:16px;
+    }
+
+    /* SECTION */
+
+    section{
+        padding:50px 20px;
     }
 
     /* SOBRE */
 
     .sobre-container,
     .quem-sou{
-        grid-template-columns:1fr;
+        display:flex;
+        flex-direction:column;
 
-        text-align:center;
+        gap:30px;
     }
 
-    /* CARDS */
+    /* TECNOLOGIAS */
 
-    .tecnologias,
-    .projetos,
-    .cursos,
-    .skills{
+    .tecnologias{
+        display:grid;
+
         grid-template-columns:1fr;
+
+        gap:25px;
 
         padding:20px;
     }
+
+    /* PROJETOS */
+
+    .projetos{
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        padding:20px;
+    }
+
+    .projeto-card{
+        min-height:auto;
+    }
+
+    /* CURSOS */
+
+    .cursos{
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        padding:20px;
+    }
+
+    /* SKILLS */
+
+    .skills{
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        padding:20px;
+    }
+
+    /* CARDS */
 
     .tech-card,
     .projeto-card,
     .curso-card,
     .skill-card{
         width:100%;
+
+        padding:30px 20px;
+    }
+
+    .tech-card h3,
+    .projeto-card h2,
+    .curso-card h2,
+    .skill-card h2{
+        font-size:24px;
+    }
+
+    .tech-card p,
+    .projeto-card p,
+    .curso-card p,
+    .skill-card p{
+        font-size:16px;
     }
 
     /* BOTÕES */
@@ -673,24 +752,21 @@ nav a:hover{
     .contato-btn{
         width:100%;
 
+        display:block;
+
         text-align:center;
     }
 
     /* CONTATO */
 
     .contato{
+        display:flex;
+
         flex-direction:column;
 
         align-items:center;
 
-        padding:30px 20px;
-    }
-
-    /* SECTIONS */
-
-    section{
-        padding:60px 20px;
+        gap:20px;
     }
 
 }
-
