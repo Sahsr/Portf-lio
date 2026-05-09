@@ -70,7 +70,7 @@ Projeto de modelagem e implementação de banco de dados utilizando SQL e MySQL.
 
 # 📸 Preview
 
-![Preview do Projeto](banner.jpg)
+![Preview do Projeto](portfolio.jpeg)
 
 ---
 
